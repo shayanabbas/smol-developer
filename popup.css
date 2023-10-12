@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+#startButton, #stopButton {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#startButton:hover, #stopButton:hover {
+    background-color: #45a049;
+}
+
+#projectSelect {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
